@@ -1,0 +1,51 @@
+.work {
+    padding: 51px 0 57px 0;
+    &__title {
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2e2e2e;
+        text-align: center;
+    }
+    &__divider {
+        display: block;
+        margin: 20px auto;
+        width: 148px;
+        height: 1px;
+        background-color: #ec644b;
+    }
+    &__subtitle {
+        display: block;
+        margin: 0 auto;
+        max-width: 880px;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #2e2e2e;
+        text-align: center;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        padding-top: 37px;
+        width: 360px;
+        &-title {
+            padding-top: 28px; 
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: #ec644b;
+            text-align: center;
+        }
+        &-descr {
+            padding-top: 18px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+            text-align: justify;
+        }
+    }
+}

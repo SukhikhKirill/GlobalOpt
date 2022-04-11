@@ -1,0 +1,28 @@
+.manager {
+    min-height: 342px;
+    background: url('../img/managers_bg.jpg') center (center/cover) no-repeat;
+    &__img {
+        padding-top: 58px;
+        display: block;
+        margin: 0 auto;
+    }
+    &__title {
+        padding-top: 20px;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__subtitle {
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+        width: 990px;
+        font-size: 19px;
+        line-height: 27px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+}

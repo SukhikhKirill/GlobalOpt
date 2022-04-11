@@ -1,0 +1,39 @@
+.scheme {
+    height: 454px;
+    background-color: #f3f3f3;
+    &__title {
+        padding-top: 58px;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2e2e2e;
+        text-align: center;
+    }
+    &__wrapper {
+        padding-top: 33px;
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        width: 250px;
+        &-icon {
+            display: block;
+            margin: 0 auto;
+        }
+        &-title {
+            padding-top: 12px;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+            color: #ec644b;
+            text-align: center;
+        }
+        &-subtitle {
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+            text-align: center;
+        }
+    }
+}

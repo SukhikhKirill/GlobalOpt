@@ -1,0 +1,63 @@
+.reviews {
+    padding: 51px 0 65px 0;
+    &__title {
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2e2e2e;
+        text-align: center;
+    }
+    &__divider {
+        display: block;
+        margin: 20px auto;
+        width: 148px;
+        height: 1px;
+        background-color: #ec644b;
+    }
+    &__subtitle {
+        display: block;
+        margin: 0 auto;
+        max-width: 880px;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #2e2e2e;
+        text-align: center;
+    }
+    &__item {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        width: 600px;
+        &-img {
+            display: block;
+            margin: 31px auto 0 auto;
+        }
+        &-left {
+            position: absolute;
+            top: 12%;
+            left: 31%;
+        }
+        &-right {
+            position: absolute;
+            top: 12%;
+            left: 66%;
+        }
+        &-name {
+            padding-top: 19px;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: #3a3a3a;
+            text-align: center;
+        }
+        &-review {
+            padding-top: 19px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,110 @@
+.footer {
+    min-height: 230px;
+    background-color: #25333c;
+    &__wrapper {
+        padding-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__contact {
+        display: flex;
+    }
+    &__logo {
+        display: flex;
+        &-img {
+            margin-right: 43px;
+        }
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__ques {
+        margin-top: 25px;
+        text-align: right;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__tel {
+        text-decoration: none;
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        transition: .5s all;
+        &:hover {
+            color: #ec644b;
+            text-decoration: underline;
+        }
+    }
+    &__btn {
+        margin-left: 19px;
+        margin-top: 25px;
+        width: 160px;
+        height: 45px;
+        background-color: #ec644b;
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    &__divider {
+        margin-top: 26px;
+        width: 1171px;
+        height: 1px;
+        opacity: 0.3;
+        background-color: #fff;
+    }
+    &__info {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__descr {
+        opacity: 0.6;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__policity {
+        opacity: 0.6;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+        text-decoration: none;
+        transition: .5s all;
+        &:hover {
+            color: #ec644b;
+            text-decoration: underline;
+        }
+       
+    }
+    &__block {
+        display: flex;
+        &-make {
+            opacity: 0.6;
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 300;
+            color: #ffffff;
+            margin-right: 10px;
+        }
+        &-logo {
+            position: relative;
+            display: flex;
+            top: -10px;
+        }
+    }
+}
